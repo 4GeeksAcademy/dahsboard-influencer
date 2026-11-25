@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth motion-reduce:scroll-auto">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dashboard de comisiones, conversión y engagement de una influencer en Instagram, TikTok y YouTube.">
+  <title>Dashboard Influencer</title>
+  <!-- Tailwind CSS v4 (CDN oficial) -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-stone-50 text-stone-900 antialiased lg:flex">
+
+  <!-- CABECERA: barra superior en móvil y tablet, sidebar en escritorio -->
+  <header class="sticky top-0 z-10 border-b border-stone-200 bg-white px-4 py-3 sm:flex sm:items-center sm:justify-between sm:px-6 lg:block lg:h-screen lg:w-56 lg:shrink-0 lg:border-r lg:border-b-0 lg:py-8">
+    <p class="text-lg font-bold tracking-tight">Dashboard Influencer</p>
+    <nav aria-label="Secciones" class="mt-2 sm:mt-0 lg:mt-8">
+      <ul class="grid grid-cols-3 gap-1 text-center text-sm font-medium lg:grid-cols-1 lg:text-left">
+        <li><a href="#kpis" class="block rounded-lg px-3 py-2 hover:bg-stone-100 focus-visible:outline-2 focus-visible:outline-teal-700">Resultados</a></li>
+        <li><a href="#drivers" class="block rounded-lg px-3 py-2 hover:bg-stone-100 focus-visible:outline-2 focus-visible:outline-teal-700">Drivers</a></li>
+        <li><a href="#operativo" class="block rounded-lg px-3 py-2 hover:bg-stone-100 focus-visible:outline-2 focus-visible:outline-teal-700">Detalle</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="mx-auto w-full max-w-7xl min-w-0 space-y-10 px-4 py-6 sm:px-6 lg:px-8 lg:py-8">
+    <div>
+      <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Resultados de octubre de 2026</h1>
+      <p class="mt-2 text-stone-600">Instagram, TikTok y YouTube. Comisión del 15 % por venta. Datos de ejemplo.</p>
+    </div>
+
+    <!-- BLOQUE SUPERIOR: KPIs -->
+    <section id="kpis" aria-labelledby="t-kpis" class="scroll-mt-28 lg:scroll-mt-8">
+      <h2 id="t-kpis" class="text-xl font-semibold tracking-tight">Resultados principales</h2>
+      <p class="mt-1 text-stone-600">Cuánto ganas y qué tan bien funcionan tus anuncios.</p>
+      <ul class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <li class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5">
+          <h3 class="text-sm font-medium text-stone-600">Comisiones</h3>
+          <p class="mt-2 text-3xl font-semibold tracking-tight">8.280 €</p>
+          <p class="mt-2 text-sm font-medium text-teal-700">▲ 11,9 % <span class="font-normal text-stone-600">vs. septiembre</span></p>
+          <p class="mt-1 text-sm text-stone-600">15 % de 55.200 € en ventas</p>
+        </li>
+        <li class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5">
+          <h3 class="text-sm font-medium text-stone-600">Conversiones</h3>
+          <p class="mt-2 text-3xl font-semibold tracking-tight">720</p>
+          <p class="mt-2 text-sm font-medium text-teal-700">▲ 10,8 % <span class="font-normal text-stone-600">vs. septiembre</span></p>
+          <p class="mt-1 text-sm text-stone-600">Ventas de los tres productos</p>
+        </li>
+        <li class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5">
+          <h3 class="text-sm font-medium text-stone-600">Tasa de conversión</h3>
+          <p class="mt-2 text-3xl font-semibold tracking-tight">0,30 %</p>
+          <p class="mt-2 text-sm font-medium text-teal-700">▲ 0,02 pp <span class="font-normal text-stone-600">vs. septiembre</span></p>
+          <p class="mt-1 text-sm text-stone-600">720 ventas / 240.000 de alcance</p>
+        </li>
+        <li class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5">
+          <h3 class="text-sm font-medium text-stone-600">Retorno</h3>
+          <p class="mt-2 text-3xl font-semibold tracking-tight">2,76x</p>
+          <p class="mt-2 text-sm font-medium text-red-700">▼ 0,14x <span class="font-normal text-stone-600">vs. septiembre</span></p>
+          <p class="mt-1 text-sm text-stone-600">8.280 € de ingresos / 3.000 € de coste</p>
+        </li>
+        <li class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5">
+          <h3 class="text-sm font-medium text-stone-600">Engagement rate</h3>
+          <p class="mt-2 text-3xl font-semibold tracking-tight">6,4 %</p>
+          <p class="mt-2 text-sm font-medium text-teal-700">▲ 0,3 pp <span class="font-normal text-stone-600">vs. septiembre</span></p>
+          <p class="mt-1 text-sm text-stone-600">15.300 interacciones / alcance</p>
+        </li>
+        <li class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5">
+          <h3 class="text-sm font-medium text-stone-600">Precio medio de venta</h3>
+          <p class="mt-2 text-3xl font-semibold tracking-tight">76,67 €</p>
+          <p class="mt-2 text-sm font-medium text-teal-700">▲ 1,0 % <span class="font-normal text-stone-600">vs. septiembre</span></p>
+          <p class="mt-1 text-sm text-stone-600">55.200 € / 720 ventas</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- BLOQUE INTERMEDIO: drivers -->
+    <section id="drivers" aria-labelledby="t-drivers" class="scroll-mt-28 lg:scroll-mt-8">
+      <h2 id="t-drivers" class="text-xl font-semibold tracking-tight">Drivers</h2>
+      <p class="mt-1 text-stone-600">Qué explica esos resultados.</p>
+      <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <article class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5">
+          <h3 class="font-semibold">Embudo de ventas</h3>
+          <p class="mt-1 text-sm text-stone-600">Porcentaje que avanza desde la etapa anterior</p>
+          <ul class="mt-4 space-y-4">
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Alcance</span><span class="font-semibold tabular-nums">240.000</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-full"></div></div>
+              <p class="mt-1 text-sm text-stone-600">Punto de partida</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Clics</span><span class="font-semibold tabular-nums">9.600</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-[4%]"></div></div>
+              <p class="mt-1 text-sm text-stone-600">4,0 % del alcance (CTR)</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Carrito</span><span class="font-semibold tabular-nums">2.400</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-[1%]"></div></div>
+              <p class="mt-1 text-sm text-stone-600">25,0 % de los clics</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Ventas</span><span class="font-semibold tabular-nums">720</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-[0.3%]"></div></div>
+              <p class="mt-1 text-sm text-stone-600">30,0 % de los carritos</p>
+            </li>
+          </ul>
+        </article>
+        <article class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5">
+          <h3 class="font-semibold">Retorno por plataforma</h3>
+          <p class="mt-1 text-sm text-stone-600">Comisiones / coste</p>
+          <ul class="mt-4 space-y-4">
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">YouTube</span><span class="font-semibold tabular-nums">3,30x</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-full"></div></div>
+              <p class="mt-1 text-sm text-stone-600">2.640 € / 800 €</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Instagram</span><span class="font-semibold tabular-nums">2,65x</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-[80%]"></div></div>
+              <p class="mt-1 text-sm text-stone-600">3.180 € / 1.200 €</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">TikTok</span><span class="font-semibold tabular-nums">2,46x</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-[75%]"></div></div>
+              <p class="mt-1 text-sm text-stone-600">2.460 € / 1.000 €</p>
+            </li>
+          </ul>
+        </article>
+        <article class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5">
+          <h3 class="font-semibold">Comisiones por producto</h3>
+          <p class="mt-1 text-sm text-stone-600">Ingresos y conversión</p>
+          <ul class="mt-4 space-y-4">
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Producto B</span><span class="font-semibold tabular-nums">3.240 €</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-full"></div></div>
+              <p class="mt-1 text-sm text-stone-600">Conversión 0,30 %</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Producto C</span><span class="font-semibold tabular-nums">2.640 €</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-[81%]"></div></div>
+              <p class="mt-1 text-sm text-stone-600">Conversión 0,28 %</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Producto A</span><span class="font-semibold tabular-nums">2.400 €</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-[74%]"></div></div>
+              <p class="mt-1 text-sm text-stone-600">Conversión 0,32 %</p>
+            </li>
+          </ul>
+        </article>
+        <article class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5">
+          <h3 class="font-semibold">Engagement por plataforma</h3>
+          <p class="mt-1 text-sm text-stone-600">Interacciones / alcance</p>
+          <ul class="mt-4 space-y-4">
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">TikTok</span><span class="font-semibold tabular-nums">8,0 %</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-full"></div></div>
+              <p class="mt-1 text-sm text-stone-600">10.000 interacciones</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Instagram</span><span class="font-semibold tabular-nums">5,0 %</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-[63%]"></div></div>
+              <p class="mt-1 text-sm text-stone-600">3.500 interacciones</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">YouTube</span><span class="font-semibold tabular-nums">4,0 %</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-1/2"></div></div>
+              <p class="mt-1 text-sm text-stone-600">1.800 interacciones</p>
+            </li>
+          </ul>
+        </article>
+        <article class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5">
+          <h3 class="font-semibold">Engagement por producto</h3>
+          <p class="mt-1 text-sm text-stone-600">Interacciones / alcance</p>
+          <ul class="mt-4 space-y-4">
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Producto A</span><span class="font-semibold tabular-nums">7,0 %</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-full"></div></div>
+              <p class="mt-1 text-sm text-stone-600">7.000 interacciones</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Producto C</span><span class="font-semibold tabular-nums">6,3 %</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-[89%]"></div></div>
+              <p class="mt-1 text-sm text-stone-600">5.000 interacciones</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Producto B</span><span class="font-semibold tabular-nums">5,5 %</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-[79%]"></div></div>
+              <p class="mt-1 text-sm text-stone-600">3.300 interacciones</p>
+            </li>
+          </ul>
+        </article>
+        <article class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5">
+          <h3 class="font-semibold">Actividad publicada</h3>
+          <p class="mt-1 text-sm text-stone-600">Piezas de contenido</p>
+          <ul class="mt-4 space-y-4">
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">Instagram</span><span class="font-semibold tabular-nums">66</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-full"></div></div>
+              <p class="mt-1 text-sm text-stone-600">12 posts, 40 stories, 14 reels</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">TikTok</span><span class="font-semibold tabular-nums">22</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-1/3"></div></div>
+              <p class="mt-1 text-sm text-stone-600">22 vídeos</p>
+            </li>
+            <li>
+              <p class="flex justify-between gap-4 text-sm"><span class="font-medium">YouTube</span><span class="font-semibold tabular-nums">16</span></p>
+              <div class="mt-1 h-3 rounded bg-stone-100" aria-hidden="true"><div class="h-full rounded bg-teal-700 w-[24%]"></div></div>
+              <p class="mt-1 text-sm text-stone-600">6 vídeos, 10 shorts</p>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- BLOQUE INFERIOR: detalle operacional -->
+    <section id="operativo" aria-labelledby="t-operativo" class="scroll-mt-28 lg:scroll-mt-8">
+      <h2 id="t-operativo" class="text-xl font-semibold tracking-tight">Detalle operacional</h2>
+      <p class="mt-1 text-stone-600">Datos para decidir qué hacer ahora.</p>
+      <div class="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-3">
+        <article class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5 lg:col-span-3 xl:col-span-2">
+          <table role="table" class="block w-full text-sm md:table">
+            <caption class="block pb-3 text-left text-base font-semibold md:table-caption">Productos</caption>
+            <thead role="rowgroup" class="hidden md:table-header-group">
+              <tr role="row" class="border-b border-stone-300 text-stone-600">
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-left">Producto</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Precio</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Comisiones</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Conversiones</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Tasa conv.</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Engagement</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">ROI</th>
+              </tr>
+            </thead>
+            <tbody role="rowgroup" class="block divide-y divide-stone-200 md:table-row-group">
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">Producto A</th>
+                <td role="cell" data-label="Precio" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">50 €</td>
+                <td role="cell" data-label="Comisiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">2.400 €</td>
+                <td role="cell" data-label="Conversiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">320</td>
+                <td role="cell" data-label="Tasa conv." class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">0,32 %</td>
+                <td role="cell" data-label="Engagement" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">7,0 %</td>
+                <td role="cell" data-label="ROI" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">140 %</td>
+              </tr>
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">Producto B</th>
+                <td role="cell" data-label="Precio" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">120 €</td>
+                <td role="cell" data-label="Comisiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">3.240 €</td>
+                <td role="cell" data-label="Conversiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">180</td>
+                <td role="cell" data-label="Tasa conv." class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">0,30 %</td>
+                <td role="cell" data-label="Engagement" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">5,5 %</td>
+                <td role="cell" data-label="ROI" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">224 %</td>
+              </tr>
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">Producto C</th>
+                <td role="cell" data-label="Precio" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">80 €</td>
+                <td role="cell" data-label="Comisiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">2.640 €</td>
+                <td role="cell" data-label="Conversiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">220</td>
+                <td role="cell" data-label="Tasa conv." class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">0,28 %</td>
+                <td role="cell" data-label="Engagement" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">6,3 %</td>
+                <td role="cell" data-label="ROI" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">164 %</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="mt-3 text-sm text-stone-600">ROI = (comisiones − coste) / coste. Coste: 1.000 € por producto.</p>
+        </article>
+        <article class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5 lg:col-span-3 xl:col-span-1">
+          <h3 class="font-semibold">Alertas</h3>
+          <ul class="mt-4 space-y-4">
+            <li class="border-l-4 border-red-700 py-1 pl-3">
+              <p class="text-sm font-semibold">▼ Caída: conversión en TikTok</p>
+              <p class="mt-1 text-sm text-stone-600">De 0,26 % a 0,20 % respecto a septiembre.</p>
+            </li>
+            <li class="border-l-4 border-teal-700 py-1 pl-3">
+              <p class="text-sm font-semibold">▲ Pico: Unboxing premium</p>
+              <p class="mt-1 text-sm text-stone-600">34 ventas el 12 de octubre en YouTube.</p>
+            </li>
+            <li class="border-l-4 border-amber-600 py-1 pl-3">
+              <p class="text-sm font-semibold">! Anomalía: campaña Halloween</p>
+              <p class="mt-1 text-sm text-stone-600">Retorno de 1,80x, el más bajo del mes.</p>
+            </li>
+          </ul>
+        </article>
+        <article class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5 lg:col-span-3 xl:col-span-2">
+          <table role="table" class="block w-full text-sm md:table">
+            <caption class="block pb-3 text-left text-base font-semibold md:table-caption">Plataformas</caption>
+            <thead role="rowgroup" class="hidden md:table-header-group">
+              <tr role="row" class="border-b border-stone-300 text-stone-600">
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-left">Plataforma</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Alcance</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Engagement</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Conversiones</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Tasa conv.</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Retorno</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Destaca en</th>
+              </tr>
+            </thead>
+            <tbody role="rowgroup" class="block divide-y divide-stone-200 md:table-row-group">
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">Instagram</th>
+                <td role="cell" data-label="Alcance" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">70.000</td>
+                <td role="cell" data-label="Engagement" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">5,0 %</td>
+                <td role="cell" data-label="Conversiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">280</td>
+                <td role="cell" data-label="Tasa conv." class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">0,40 %</td>
+                <td role="cell" data-label="Retorno" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">2,65x</td>
+                <td role="cell" data-label="Destaca en" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">Conversiones</td>
+              </tr>
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">TikTok</th>
+                <td role="cell" data-label="Alcance" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">125.000</td>
+                <td role="cell" data-label="Engagement" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">8,0 %</td>
+                <td role="cell" data-label="Conversiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">250</td>
+                <td role="cell" data-label="Tasa conv." class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">0,20 %</td>
+                <td role="cell" data-label="Retorno" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">2,46x</td>
+                <td role="cell" data-label="Destaca en" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">Alcance y engagement</td>
+              </tr>
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">YouTube</th>
+                <td role="cell" data-label="Alcance" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">45.000</td>
+                <td role="cell" data-label="Engagement" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">4,0 %</td>
+                <td role="cell" data-label="Conversiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">190</td>
+                <td role="cell" data-label="Tasa conv." class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">0,42 %</td>
+                <td role="cell" data-label="Retorno" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">3,30x</td>
+                <td role="cell" data-label="Destaca en" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">Tasa y retorno</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+        <article class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5 lg:col-span-3 xl:col-span-1">
+          <fieldset class="group min-w-0">
+            <legend class="font-semibold">Listados destacados</legend>
+            <div class="mt-3 grid grid-cols-2 gap-2">
+              <label class="relative cursor-pointer rounded-lg border border-stone-300 px-3 py-2 text-center text-sm font-medium has-checked:border-teal-700 has-checked:bg-teal-700 has-checked:text-white has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-teal-700">
+                <input type="radio" name="listado" id="f-productos" class="sr-only" checked>Productos
+              </label>
+              <label class="relative cursor-pointer rounded-lg border border-stone-300 px-3 py-2 text-center text-sm font-medium has-checked:border-teal-700 has-checked:bg-teal-700 has-checked:text-white has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-teal-700">
+                <input type="radio" name="listado" id="f-plataformas" class="sr-only">Plataformas
+              </label>
+              <label class="relative cursor-pointer rounded-lg border border-stone-300 px-3 py-2 text-center text-sm font-medium has-checked:border-teal-700 has-checked:bg-teal-700 has-checked:text-white has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-teal-700">
+                <input type="radio" name="listado" id="f-campanas" class="sr-only">Campañas
+              </label>
+              <label class="relative cursor-pointer rounded-lg border border-stone-300 px-3 py-2 text-center text-sm font-medium has-checked:border-teal-700 has-checked:bg-teal-700 has-checked:text-white has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-teal-700">
+                <input type="radio" name="listado" id="f-mejoras" class="sr-only">Mejoras
+              </label>
+            </div>
+            <ol aria-label="Top productos" class="mt-4 hidden list-inside list-decimal space-y-3 text-sm group-has-[#f-productos:checked]:block">
+              <li>Producto B: 3.240 €</li>
+              <li>Producto C: 2.640 €</li>
+              <li>Producto A: 2.400 €</li>
+            </ol>
+            <ol aria-label="Top plataformas" class="mt-4 hidden list-inside list-decimal space-y-3 text-sm group-has-[#f-plataformas:checked]:block">
+              <li>YouTube: retorno 3,30x</li>
+              <li>Instagram: retorno 2,65x</li>
+              <li>TikTok: retorno 2,46x</li>
+            </ol>
+            <ol aria-label="Top campañas" class="mt-4 hidden list-inside list-decimal space-y-3 text-sm group-has-[#f-campanas:checked]:block">
+              <li>Unboxing premium: 4,05x</li>
+              <li>Favoritos del mes: 3,00x</li>
+              <li>Rutina de otoño: 2,50x</li>
+            </ol>
+            <ol aria-label="Oportunidades de mejora" class="mt-4 hidden list-inside list-decimal space-y-3 text-sm group-has-[#f-mejoras:checked]:block">
+              <li>Mejorar la llamada a la acción en TikTok</li>
+              <li>Subir la conversión del Producto C</li>
+              <li>Publicar más del Producto B en YouTube</li>
+            </ol>
+          </fieldset>
+        </article>
+        <article class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5 lg:col-span-3">
+          <table role="table" class="block w-full text-sm md:table">
+            <caption class="block pb-3 text-left text-base font-semibold md:table-caption">Campañas principales</caption>
+            <thead role="rowgroup" class="hidden md:table-header-group">
+              <tr role="row" class="border-b border-stone-300 text-stone-600">
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-left">Campaña</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Fechas</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Producto</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Plataforma</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Conversiones</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Comisiones</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Retorno</th>
+              </tr>
+            </thead>
+            <tbody role="rowgroup" class="block divide-y divide-stone-200 md:table-row-group">
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">Unboxing premium</th>
+                <td role="cell" data-label="Fechas" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">5–18 oct</td>
+                <td role="cell" data-label="Producto" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">B</td>
+                <td role="cell" data-label="Plataforma" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">YouTube</td>
+                <td role="cell" data-label="Conversiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">90</td>
+                <td role="cell" data-label="Comisiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">1.620 €</td>
+                <td role="cell" data-label="Retorno" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">4,05x</td>
+              </tr>
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">Favoritos del mes</th>
+                <td role="cell" data-label="Fechas" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">8–22 oct</td>
+                <td role="cell" data-label="Producto" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">C</td>
+                <td role="cell" data-label="Plataforma" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">Instagram</td>
+                <td role="cell" data-label="Conversiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">100</td>
+                <td role="cell" data-label="Comisiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">1.200 €</td>
+                <td role="cell" data-label="Retorno" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">3,00x</td>
+              </tr>
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">Rutina de otoño</th>
+                <td role="cell" data-label="Fechas" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">1–10 oct</td>
+                <td role="cell" data-label="Producto" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">A</td>
+                <td role="cell" data-label="Plataforma" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">TikTok</td>
+                <td role="cell" data-label="Conversiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">160</td>
+                <td role="cell" data-label="Comisiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">1.200 €</td>
+                <td role="cell" data-label="Retorno" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">2,50x</td>
+              </tr>
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">Reto 7 días</th>
+                <td role="cell" data-label="Fechas" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">15–21 oct</td>
+                <td role="cell" data-label="Producto" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">A</td>
+                <td role="cell" data-label="Plataforma" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">Instagram</td>
+                <td role="cell" data-label="Conversiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">120</td>
+                <td role="cell" data-label="Comisiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">900 €</td>
+                <td role="cell" data-label="Retorno" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">2,00x</td>
+              </tr>
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">Halloween</th>
+                <td role="cell" data-label="Fechas" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">24–31 oct</td>
+                <td role="cell" data-label="Producto" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">B</td>
+                <td role="cell" data-label="Plataforma" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">TikTok</td>
+                <td role="cell" data-label="Conversiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">30</td>
+                <td role="cell" data-label="Comisiones" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">540 €</td>
+                <td role="cell" data-label="Retorno" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">1,80x</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+        <article class="rounded-xl border border-stone-200 bg-white p-4 sm:p-5 lg:col-span-3">
+          <table role="table" class="block w-full text-sm md:table">
+            <caption class="block pb-3 text-left text-base font-semibold md:table-caption">Interacciones por plataforma</caption>
+            <thead role="rowgroup" class="hidden md:table-header-group">
+              <tr role="row" class="border-b border-stone-300 text-stone-600">
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-left">Plataforma</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Me gusta</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Comentarios</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Compartidos</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Guardados</th>
+                <th role="columnheader" scope="col" class="px-2 py-2 font-medium text-right">Total</th>
+              </tr>
+            </thead>
+            <tbody role="rowgroup" class="block divide-y divide-stone-200 md:table-row-group">
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">Instagram</th>
+                <td role="cell" data-label="Me gusta" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">2.600</td>
+                <td role="cell" data-label="Comentarios" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">360</td>
+                <td role="cell" data-label="Compartidos" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">290</td>
+                <td role="cell" data-label="Guardados" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">250</td>
+                <td role="cell" data-label="Total" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">3.500</td>
+              </tr>
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">TikTok</th>
+                <td role="cell" data-label="Me gusta" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">7.600</td>
+                <td role="cell" data-label="Comentarios" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">700</td>
+                <td role="cell" data-label="Compartidos" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">1.300</td>
+                <td role="cell" data-label="Guardados" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">400</td>
+                <td role="cell" data-label="Total" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">10.000</td>
+              </tr>
+              <tr role="row" class="block py-3 md:table-row">
+                <th role="rowheader" scope="row" class="block pb-1 text-left font-semibold md:table-cell md:px-2 md:py-3">YouTube</th>
+                <td role="cell" data-label="Me gusta" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">1.450</td>
+                <td role="cell" data-label="Comentarios" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">230</td>
+                <td role="cell" data-label="Compartidos" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">75</td>
+                <td role="cell" data-label="Guardados" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">45</td>
+                <td role="cell" data-label="Total" class="flex justify-between gap-4 py-1 text-right tabular-nums before:text-stone-600 before:content-[attr(data-label)] md:table-cell md:px-2 md:py-3 md:before:content-none">1.800</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
